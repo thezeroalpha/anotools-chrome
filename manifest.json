@@ -1,0 +1,13 @@
+{
+  "name": "Anotools",
+  "version": "1.0",
+  "description": "Open the page in Hypothes.is or Outline.com",
+  "permissions": ["contextMenus", "activeTab"],
+  "icons": {"128": "icons8-pencil-48.png"},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {"default_icon": "icons8-pencil-48.png"},
+  "manifest_version": 2
+}
